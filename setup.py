@@ -30,9 +30,9 @@ setup(
         'Topic :: Internet :: WWW/HTTP :: Dynamic Content',
     ],
     install_requires=[
-        "Django>=2.0,<3.0",
+        "Django>=3.0",
         "lti==0.9.4",
-        "django-braces==1.13.0",
+        #"django-braces==1.13.0",
         "oauthlib==3.1.0",
         "requests_oauthlib"
     ],
